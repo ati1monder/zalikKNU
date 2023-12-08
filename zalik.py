@@ -52,7 +52,7 @@ class Text:
     
     def paragraphsWordFind(self, paragraphs, word):
         for paragraph in paragraphs:
-            if word in paragraph:
+            if word.lower() in paragraph.lower():
                 print(paragraph)
         
 the = Text
